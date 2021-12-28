@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-25T08:16:29Z" name="Suite" finished-at="2021-09-25T08:16:30Z" duration-ms="114">
+    <groups>
+    </groups>
+    <test started-at="2021-09-25T08:16:29Z" name="Test" finished-at="2021-09-25T08:16:30Z" duration-ms="114">
+      <class name="training.parameter_prefrence">
+        <test-method signature="Sum(int, int)[pri:1, instance:training.parameter_prefrence@1205bd62]" started-at="2021-09-25T08:16:30Z" name="Sum" finished-at="2021-09-25T08:16:30Z" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sum -->
+        <test-method signature="Diff(int, int)[pri:2, instance:training.parameter_prefrence@1205bd62]" started-at="2021-09-25T08:16:30Z" name="Diff" finished-at="2021-09-25T08:16:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diff -->
+      </class> <!-- training.parameter_prefrence -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
